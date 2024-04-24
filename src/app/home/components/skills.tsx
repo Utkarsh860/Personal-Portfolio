@@ -55,11 +55,11 @@ export default function Skills(){
     },
   ]
   return(
-    <div className="max-w-5xl mx-auto px-8 flex flex-col items-center justify-center" >
+    <div className="mt-10 max-w-5xl mx-auto px-8 flex flex-col items-center justify-center" >
      <div className="inline-block">
        <Title text="Skills Acquired 🎯" />
      </div>
-     <HoverEffect items={skills} className="grid grid-cols-2  lg:grid-cols-3  py-10"/>
+     <HoverEffect items={skills} className="grid grid-cols-1  lg:grid-cols-3  py-10"/>
   </div>
   ) 
 }

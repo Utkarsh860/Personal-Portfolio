@@ -59,7 +59,7 @@ export default function Skills(){
      <div className="inline-block">
        <Title text="Skills Acquired 🎯" />
      </div>
-     <HoverEffect items={skills} className="grid grid-cols-1  lg:grid-cols-3  py-10"/>
+     <HoverEffect items={skills} className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10"/>
   </div>
   ) 
 }
